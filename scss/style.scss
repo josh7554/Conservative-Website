@@ -1,0 +1,136 @@
+/* NORMALIZE */
+@import "../partials/_normalize.scss";
+
+/* Variables */
+$tree-green: #031814;
+$tree-black: #01080e;
+
+/* Main Page CSS */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  background-image: url('../img/jumbotron.jpeg');
+  background-size: cover;
+  height: 910px;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  margin: 0;
+  top:350px;
+  position:relative;
+}
+
+.jumbotron p {
+  position: relative;
+  text-align: center;
+  top: 350px;
+}
+
+/* Nav bar */
+
+nav img {
+  width: 40px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.navbar.know {
+  position: fixed;
+  top: 0; right: 0; left:0;
+}
+
+nav {
+  background-color: $tree-green;
+  color: #fff;
+  padding: 0;
+  height: 75px;
+  z-index: 1;
+}
+
+.navbar-fixed {
+    position: fixed;
+    z-index: 1;
+    top: 0; right: 0; left:0;
+    background-color: $tree-green;
+    color: #fff;
+    padding: 0;
+    height: 75px;
+}
+
+nav a {
+  text-decoration: none;
+}
+nav ul {
+  float: right;
+}
+
+nav li {
+  position: relative;
+  margin: 0;
+  top: 29px;
+  color: white;
+  display: inline;
+  font-size: 15px;
+  padding: 30px 30px 28px 30px;
+  transition-duration: 0.5s;
+}
+
+nav li:hover {
+  background-color: $tree-black;
+  transition-duration: 0.5s;
+}
+
+/* Three sections */
+
+.sections {
+  max-width: 200px;
+  float: left;
+  margin: 0 333px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.sections img {
+  height: 50px;
+
+}
+
+@media (max-width: 1731px) {
+  float: none;
+}
+
+/* Know text */
+
+.block {
+  text-align: center;
+  margin: 0 500px 200px 500px;
+  position: relative;
+  top:200px;
+}
+//
+.block .text img {
+  // float:left;
+  margin: 0;
+  // position: relative;
+  // right: 350px;
+  // bottom: 250px;
+  width:250px;
+}
